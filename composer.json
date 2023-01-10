@@ -1,0 +1,7 @@
+{
+	"autoload":{
+		"psr-4":{
+			"Social_Structure\\": "Social_Structure"
+		}
+	}
+}

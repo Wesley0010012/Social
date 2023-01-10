@@ -1,0 +1,39 @@
+@import '../components/header.css';
+@import '../components/footer.css';
+@import '../components/feed-body.css';
+
+div.feed {
+  width: 100%;
+  background-color: transparent;
+  height: 100%;
+}
+
+.lat-nav {
+  width: 100%;
+  padding: 30px;
+  background-color: white;
+  display: block;
+}
+
+.lat-nav:not(:first-of-type), .feed-single:not(:first-of-type) {
+  margin-top: 15px;
+}
+
+.lat-nav ul li {
+  display: block;
+  margin-top: 15px;
+}
+
+.lat-nav ul li:first-of-type {
+ margin-top: 20px; 
+}
+
+.lat-nav h2 {
+  text-align: center;
+  color: #222222;
+}
+
+.main-nav {
+  width: 60%;
+  min-height: 71vh;
+}

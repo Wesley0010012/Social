@@ -1,0 +1,15 @@
+/* Gen-input_submit */
+
+input[type="submit"] {
+  padding: 15px 20px;
+  text-transform: uppercase;
+  background-color: #c80b0b;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+input[type="submit"]:hover {
+  background-color: #920a0a;
+}

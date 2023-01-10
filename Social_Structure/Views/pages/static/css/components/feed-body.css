@@ -1,0 +1,26 @@
+section.feed-body {
+  width: 100%;
+  display: flex;
+  max-width: 1440px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.feed-body .lateral{
+  width: 18%;
+}
+
+.main-nav .feed-single {
+  width: 100%;
+  background-color: white;
+  padding: 30px;
+}
+
+.feed-single .feed-person {
+  display: flex;
+}
+
+.feed-person img {
+  width: 50px;
+  height: 50px;
+}

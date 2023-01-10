@@ -1,0 +1,45 @@
+header {
+  width: 100%;
+  display: flex;
+  background-color: white;
+  position: absolute;
+  padding: 20px 150px;
+  justify-content: space-between;
+  top: 0;
+  left: 0;
+}
+
+header .brand {
+  vertical-align: middle;
+  font-size: 20px;
+  padding-top: 12px;
+  margin-top: 3px;
+}
+
+header nav, header .icons, header .person {
+  padding-top: 15px;
+  margin-top: 3px;
+}
+
+header .searcher form{
+  display: flex;
+  margin-top: 13px;
+}
+
+.searcher input[type="text"] {
+  width: 300px;
+  padding: 7px 15px;
+}
+
+.searcher button {
+  padding: 0 15px;
+}
+
+header img {
+  width: 40px; 
+  height: 40px; 
+}
+
+header .person a {
+  margin-left: 10px;
+}

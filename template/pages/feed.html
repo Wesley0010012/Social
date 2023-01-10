@@ -1,0 +1,90 @@
+<title>Bem vindo {NOME}</title>
+
+<link href="./css/pages/feed.css" type="text/css" rel="Stylesheet" />
+
+<div class="feed">
+  <header>
+    <a class="brand">Social</a>
+    <nav class="utils">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li>
+          <a href="/">Configurações da conta</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="searcher">
+      <form method="GET">
+        <input type="text" name="pesquisa" placeholder="Digite o que deseja buscar..." />
+        <button type="submit" name="a-search" value="o-search">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </form>
+    </div>
+    <ul class="icons">
+      <li><a href=""><i class="fa fa-bell"></i></a></li>
+      <li><a href=""><i class="fa fa-comments"></i></a></li>
+      <li><a href=""><i class="fa fa-home"></i></a></li>
+    </ul>
+    <div class="person" style="display: flex;">
+      <a class="person-photo">
+        <!--Resolução da imagem que seria adicionada quando feito login-->
+      <img src="./images/template_perfil.jpeg" class="perfil" alt="Seu perfil">
+      </a>
+      <a class="/person/config"><i class="fa fa-gears"></i></a>
+      <a href="/exit?isExit=true"><i class="fa fa-arrow-right-from-bracket"></i></a>
+    </div>
+  </header>
+  <div class="marger"></div>
+  <section class="feed-body">
+    <div class="lateral">
+      <div class="lat-nav shadowner">
+        <div class="titled">
+          <h2>Atalhos!</h2>
+        </div>
+        <ul>
+          <li><a href=""> <i class="fa fa-feed"></i> Minhas páginas</a></li>
+          <li><a href="/?user?flag=''&&isLogged?=id/friends"><i class="fa fa-users"></i> Amigos</a></li>
+          <li><a href=""><i class="fa fa-clock"></i> Notificações</a></li>
+          <li><a href=""><i class="fa fa-inbox"></i> Inbox</a></li>
+          <li><a href=""><i class="fa fa-arrow-right-from-bracket"></i> Sair</a></li>
+        </ul>           
+      </div>
+    </div>
+    <div class="main-nav">
+      <div class="feed-single shadowner">
+        <div class="feed-person">
+          <img src="./images/template_perfil.jpeg" class="perfil" alt="">
+          <div clas="person-infos">
+            <h4>Mikhail Belicoff</h4>
+            <p>27/03/1492</p>
+          </div> 
+        </div>
+        <div class="publication">
+          minha publicação
+        </div>
+      </div>
+    </div>
+    <div class="lateral">
+      <div class="lat-nav shadowner">
+        <div class="titled">
+          <h2>Atividades.</h2>
+          <!--Criar log de atividades? -> Pensando na ideia de que monitorar não é viável as pessoas, definir:
+            -> o que o usuário fez e quando;
+              -> Adesão de amigos (talvez);
+              -> Publicações;
+              -> Configurações (parte);
+          -->
+        </div>            
+      </div>
+      <div class="lat-nav shadowner">
+        <div class="titled">
+          <h2>Amigos.</h2>
+        </div>           
+      </div>
+    </div>
+  </section>
+  <footer>
+    Todos os direitos reservados.
+  </footer>
+</div>
